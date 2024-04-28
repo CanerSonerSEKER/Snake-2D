@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -25,7 +24,6 @@ public class Food : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            
             RandomizePosition();
         }
         
